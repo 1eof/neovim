@@ -1,31 +1,23 @@
 local opt = vim.opt
 
--- 行号
-opt.relativenumber = false
+-- Number Settings
+opt.relativenumber = true
 opt.number = true
 
--- 缩进
+-- Tab Settings
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
--- 防止包裹
+-- Disable Wrap
 opt.wrap = false
 
--- 光标行
+-- Enable CursorLine
 opt.cursorline = true
 
--- 启用鼠标
+-- Enable Mouse
 opt.mouse:append("a")
 
--- 系统剪贴板
+-- Use System Clipboard
 opt.clipboard:append("unnamedplus")
-
--- 默认新窗口右和下
-opt.splitright = true
-opt.splitbelow = true
-
--- 搜索
-opt.ignorecase = true
-opt.smartcase = true
