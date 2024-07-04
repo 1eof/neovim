@@ -3,3 +3,9 @@ vim.g.maplocalleader = "\\"
 local keymap = vim.keymap
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+-- telescope
+keymap.set("n", "<leader>ff", ":Telescope find_files<CR>")
+keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>")
+keymap.set("n", "<leader>fb", ":Telescope buffers<CR>")
+keymap.set("n", "<leader>fh", ":Telescope help_tags<CR>")
+
