@@ -21,3 +21,6 @@ opt.mouse:append("a")
 
 -- Use System Clipboard
 opt.clipboard:append("unnamedplus")
+
+-- Color
+opt.termguicolors = true
