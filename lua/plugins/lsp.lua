@@ -23,11 +23,9 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     dependencies = {
       "williamboman/mason.nvim",
-      "nvimtools/none-ls.nvim",
+      "nvimtools/none-ls.nvim"
     },
-    opts = {
-      ensure_installed = { "clang-format" },
-    },
+    opts = { ensure_installed = { "clang-format" } },
 },
 
 {
