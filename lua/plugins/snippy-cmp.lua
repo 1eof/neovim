@@ -12,6 +12,7 @@ return {
     'dcampos/nvim-snippy',
     'dcampos/cmp-snippy',
   },
+  event = { "InsertEnter", "CmdlineEnter" },
   config = function()
     require"config.cmp"
   end,
